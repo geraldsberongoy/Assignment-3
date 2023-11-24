@@ -17,8 +17,8 @@ frame_container1 = customtkinter.CTkFrame(mainwindow, border_width=2, border_col
 frame_container1.pack(expand=True, fill="both", padx=10, pady=10)
 
 #Images
-add_shop_image = customtkinter.CTkImage(Image.open("shop.png"), size=((30, 30)))
-add_cancel_image = customtkinter.CTkImage(Image.open("cancelbutton.png"), size =((30, 30)))
+add_shop_image = customtkinter.CTkImage(Image.open("icon_shop.png"), size=((30, 30)))
+add_cancel_image = customtkinter.CTkImage(Image.open("icon_cancelbutton.png"), size =((30, 30)))
 appleimg = customtkinter.CTkImage(Image.open("icon_apple.png"), size=(200, 200))
 orangeimg = customtkinter.CTkImage(Image.open("icon_orange.png"), size=(200, 200))
 checkoutimg = customtkinter.CTkImage(Image.open("checkout.png"), size=(30, 30))
