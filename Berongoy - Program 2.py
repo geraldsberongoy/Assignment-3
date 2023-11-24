@@ -13,8 +13,8 @@ mainwindow.title("Shopee")
 mainwindow.resizable(width=False, height=False)
 
 # Images
-add_shop_image = customtkinter.CTkImage(Image.open("shop.png"), size=((30, 30)))
-add_cancel_image = customtkinter.CTkImage(Image.open("cancelbutton.png"), size=((30, 30)))
+add_shop_image = customtkinter.CTkImage(Image.open("icon_shop.png"), size=((30, 30)))
+add_cancel_image = customtkinter.CTkImage(Image.open("icon_cancelbutton.png"), size=((30, 30)))
 banner_image = customtkinter.CTkImage(Image.open("banner.png"), size=(320, 100))
 appleimg = customtkinter.CTkImage(Image.open("apples.png"), size=(360, 480))
 
