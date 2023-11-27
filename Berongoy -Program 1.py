@@ -13,8 +13,8 @@ mainwindow.geometry("400x240")
 mainwindow.title("Main Window")
 mainwindow.resizable(width=False, height=False)
 
-frame_container1 = customtkinter.CTkFrame(mainwindow, border_width=2, border_color="black")
-frame_container1.pack(expand=True, fill="both", padx=10, pady=10)
+frame_containerdesign = customtkinter.CTkFrame(mainwindow, border_width=2, border_color="black")
+frame_containerdesign.pack(expand=True, fill="both", padx=10, pady=10)
 
 #Images
 add_shop_image = customtkinter.CTkImage(Image.open("icon_shop.png"), size=((30, 30)))
