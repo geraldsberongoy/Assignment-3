@@ -38,8 +38,8 @@ def button_function():
     frame_container = customtkinter.CTkFrame(customer_window, border_width=2, border_color="black")
     frame_container.pack(expand=True, fill="both", padx=10, pady=10)
 
-    entry_introduction = customtkinter.CTkLabel(customer_window, text="Customer Registration", font=("Helvetica", 30, 'bold'), bg_color="#2b2b2b")
-    entry_introduction.place(relx=0.5, rely=0.1, anchor=CENTER)
+    label_introduction = customtkinter.CTkLabel(customer_window, text="Customer Registration", font=("Helvetica", 30, 'bold'), bg_color="#2b2b2b")
+    label_introduction.place(relx=0.5, rely=0.1, anchor=CENTER)
 
     entry_firstname = customtkinter.CTkEntry(customer_window, placeholder_text="Enter your First Name", corner_radius=10, width=300)
     entry_firstname.place(relx=0.5, rely=0.25, anchor=CENTER)
